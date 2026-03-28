@@ -22,10 +22,10 @@
     settings:keywords="@string/keywords_android_version">
 
     <!-- AICP Logo -->
-    <com.android.settingslib.widget.LayoutPreference
+    <!--<com.android.settingslib.widget.LayoutPreference
         android:layout="@layout/aicp_logo_layout"
         android:key="aicp_logo"
-        android:selectable="false" />
+        android:selectable="false" />-->
 
     <!-- Android version -->
     <Preference
@@ -39,7 +39,7 @@
     <!-- Lineage version -->
     <Preference
         android:key="lineage_version"
-	    android:title="@string/aicp_version"
+	    android:title="@string/frosty_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
